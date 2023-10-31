@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    
+ <div class="conteiner">
+
+  <h1>Registration Form</h1>
+
+  <div class="f_conteiner">
+    <form method="post" action="https://localhost/Gariwala/controllers/RegistrationController.php">
+
+      <div class="input-name">
+        <i class="fa-solid fa-user"></i>
+        <input type="text" placeholder="First Name" class="name" name="first_name" required>
+
+        <span> 
+          <i class="fa-solid fa-user"></i>
+          <input type="text" placeholder="Last Name" class="name" name="last_name">
+        
+        </span>
+       
+
+      </div>
+
+
+      <div class="input-name">
+        <i class="fa-solid fa-envelope"></i>
+        <input type="email" placeholder="Email" class="text-name" name="email">
+
+             </div>
+
+         <div class="input-name">
+              <i class="fa-solid fa-lock"></i>
+              <input type="password" placeholder="Password" class="text-name" name="password" required>
+      
+           </div>
+
+           <div class="input-name">
+            <i class="fa-solid fa-lock"></i>
+            <input type="password" placeholder=" Confirm Password" class="text-name"  name="password2" required>
+    
+         </div>
+
+
+         <div class="input-name">
+
+          <input type="radio" value="Male" class="radio-button" name="Gender">
+          <label style="margin-right: 30px;">Male</label>
+
+          <input type="radio"  value="Female" class="radio-button" name="Gender">
+          <label>Female</label>
+  
+       </div>
+       
+         <div class="input-name">
+           <lable>Division</lable>
+           <select class="Division"  name="division">
+              <option>Dhaka</option>
+              <option>Rajshahi</option>
+              <option>Barishal</option>
+              <option>Chittagong</option>
+              <option>Rangpur</option>
+              <option>Maymanshing</option>
+              <option>Khulna</option>
+              <option>Sylhet</option>
+           </select>
+
+           <div class="arrow"></div>
+  
+       </div>
+       
+       <div class="input-name">
+         
+        <input type="checkbox" id="cb" class="check-button">
+        <label for="cb" class="check">I accept the terms and conditions</label>
+     </div>
+
+       <div class="input-name">
+         
+        <input type="submit" class="button" value="Register">
+       
+     </div>
+
+
+
+
+    </form> 
+
+  </div>
+
+ </div>
+
+<footer>
+  &copy;Copyright by Gariwala.com
+</footer>
+
+</body>
+</html>
